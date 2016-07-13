@@ -32,6 +32,9 @@ Building and Installing
     - sudo, http://www.sudo.ws/
     - An account with root privileges.
 
+  cd src
+  python setup.py install
+
   To build the re-distributable, in the directory containing
   this file run:
     make
@@ -41,6 +44,8 @@ Building and Installing
 
   To run the test suite, in the directory containing this file run:
     make test
+
+  ls /lib64/security/pam_python.so
 
 
 License
